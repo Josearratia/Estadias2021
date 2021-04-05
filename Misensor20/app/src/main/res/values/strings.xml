@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Misensor20</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="cargar_datos">Cargar Datos</string>
+
+    <string-array name="servidores">
+        <item>Seleccione un servidor</item>
+        <item>thingspeak.com</item>
+        <item>Otro</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="valor_m_ximo">Valor Máximo</string>
+    <string name="valor_m_nimo">Valor Mínimo</string>
+    <string name="humedad">Humedad</string>
+    <string name="alertas">Alertas</string>
+    <string name="m_ximo">Máximo</string>
+    <string name="m_nimo">Mínimo</string>
+</resources>
