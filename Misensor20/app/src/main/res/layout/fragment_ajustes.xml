@@ -15,35 +15,27 @@
             android:id="@+id/lastupdate"
             android:layout_width="match_parent"
             android:layout_height="35dp"
+            android:layout_weight="1"
             android:textAlignment="center"
             android:textSize="29sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
+            android:layout_weight="1"
             android:text="@string/temperatura"
             android:textAlignment="center" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:layout_weight="1"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
-                <EditText
-                    android:id="@+id/tmpmax"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="@string/valor_m_ximo"
-                    android:importantForAutofill="no"
-                    android:inputType="number"
-                    android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/tmpmin"
@@ -55,20 +47,23 @@
                     android:importantForAutofill="no"
                     android:inputType="numberSigned|number"
                     android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/tmpmax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/valor_m_ximo"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textmaxtemp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="30°"
-                    android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/textmintemp"
@@ -77,6 +72,14 @@
                     android:layout_weight="1"
                     android:text="-30°"
                     android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textmaxtemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="30°"
+                    android:textAlignment="center" />
             </LinearLayout>
 
         </LinearLayout>
@@ -84,28 +87,20 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
+            android:layout_weight="1"
             android:text="@string/humedad"
             android:textAlignment="center" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:layout_weight="1"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
-                <EditText
-                    android:id="@+id/hummax"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="Valor Máximo"
-                    android:inputType="number"
-                    android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/hummin"
@@ -117,6 +112,16 @@
                     android:inputType="number"
                     android:textAlignment="center" />
 
+                <EditText
+                    android:id="@+id/hummax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Valor Máximo"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -125,19 +130,19 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textmaxhum"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="100"
-                    android:textAlignment="center" />
-
-                <TextView
                     android:id="@+id/textminhum"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="0"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textmaxhum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100"
                     android:textAlignment="center" />
             </LinearLayout>
 
@@ -146,18 +151,21 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
+            android:layout_weight="1"
             android:text="@string/alertas"
             android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
+            android:layout_weight="1"
             android:text="@string/temperatura"
             android:textAlignment="center" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <CheckBox
@@ -178,12 +186,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
+            android:layout_weight="1"
             android:text="@string/humedad"
             android:textAlignment="center" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <CheckBox
@@ -204,6 +214,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
@@ -227,6 +238,7 @@
             android:id="@+id/button_guardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="Guardar" />
 
     </LinearLayout>
