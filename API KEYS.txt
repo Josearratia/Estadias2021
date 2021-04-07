@@ -1,0 +1,10 @@
+Thingspeak acc: 1630037@upv.edu.mx
+Thingspeak pass: n-@g*4Fd7A-NFG4
+
+IPservidor = https://api.thingspeak.com/
+ReadAPIKey = "J8FR3PJMX71ZS990"
+Channel = "1279648"
+
+
+User API Key: ED74YF11FUBXXZYM
+MQTT API Key: OA378LZCGEIFONX1
